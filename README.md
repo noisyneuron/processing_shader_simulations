@@ -3,7 +3,7 @@
 Iterative simulations with processing, running on the gpu. More details in readmes inside folders.
 
 
-###1. Reaction Diffusion
+### 1. Reaction Diffusion
 
 ![](rd1.png)
 
@@ -19,7 +19,7 @@ Iterative simulations with processing, running on the gpu. More details in readm
 
 
 
-###2. Conway's Game of Life
+### 2. Conway's Game of Life
 
 ![](gol1.png)
 
@@ -27,4 +27,4 @@ Iterative simulations with processing, running on the gpu. More details in readm
 
 
 
-###3. todo. Flocking? DLA?  
+### 3. todo. Flocking? DLA?  
