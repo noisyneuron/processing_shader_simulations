@@ -8,3 +8,5 @@ Todo:
 - more colour options
 - allow for variable step size? 
 - try with three.js
+- gui controls
+- option to specify/modify kernel? 
