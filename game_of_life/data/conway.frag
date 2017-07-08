@@ -6,9 +6,10 @@ precision mediump int;
 #endif
 
 uniform vec2 resolution;
+uniform vec2 mouse;
 uniform sampler2D ppixels;
 uniform sampler2D initialtex;
-
+uniform bool brush;
 uniform float first_frame;
 
 vec2 psize = 1./resolution.xy;
@@ -59,6 +60,11 @@ void main() {
     if(sum == 3.) {
       n = 1.;
     }
+  }
+
+  vec2 diff = abs(st - mouse);
+  if(brush && diff.x < 1.*psize.x && diff.y < 1.*psize.y) {
+    n = 1.;
   }
 
   gl_FragColor = vec4(vec3(n), 1.);
